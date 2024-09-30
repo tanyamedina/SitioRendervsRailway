@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>3.2. Sitio Web sencillo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+     <!-- Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+     <link href="https://fonts.cdnfonts.com/css/sprite-graffiti" rel="stylesheet">
+     <link href="https://fonts.cdnfonts.com/css/m-morezyn" rel="stylesheet">
+     <link href="https://fonts.cdnfonts.com/css/the-halloween" rel="stylesheet">
+     <link href="https://fonts.cdnfonts.com/css/hook-hanger" rel="stylesheet">
+                
+                
+
+    <style>
+        body {
+            background-image: url('neon-room.jpg'); /* Nombre de la imagen en la misma carpeta */
+            background-size: cover; /* La imagen cubre todo el fondo */
+            background-position: center; /* Centrada */
+            background-attachment: fixed; /* El fondo permanece fijo al hacer scroll */
+        }
+
+        /* Aplicar la fuente de forma global o específica */
+        .graffiti-font {
+            font-family: 'Sprite Graffiti', sans-serif;
+        }
+
+        .hook-hanger {
+            font-family: 'Hook Hanger', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0b010e; padding-top: 0; padding-bottom: 0;">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="GOTHTECH (2).png" alt="Logo" class="img-fluid rounded-circle" style="max-height: 80px; width: auto;">
+                    <p class="graffiti-font mb-0 ml-1" style="font-size: 26px; color: whitesmoke;">GOTHTECH</p>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Page content -->
+    <div class="container" style="margin-top: 125px;">
+
+        <!-- Fila con dos columnas para texto y video, alineados verticalmente -->
+        <div class="row justify-content-center align-items-center" style="background-color: #000000ee; padding: 20px; min-height: 400px;">
+            
+            <!-- Columna para el texto -->
+            <div class="col-md-6 text-center">
+                <h1 class="font-italic" style="font-weight: bold; color: whitesmoke; font-family: 'Staatliches', sans-serif;">
+                    Clowd Wars
+                </h1>
+                <h6 class="font-italic" style="color: white;">
+                    ¿#TeamRailway o #TeamRender?
+                </h6>
+            </div>
+    
+            <!-- Columna para el video -->
+            <div class="col-md-6 d-flex justify-content-center">
+                <iframe width="100%" height="315" 
+                    src="https://www.youtube.com/embed/DCi8JLqDoZ0?si=VY6TO0R4XxRBCsKH" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+    
+        </div>
+    </div>
+
+    <!-- Footer responsivo con Bootstrap -->
+    <footer class="text-center text-white py-2 mt-5" style="background-color: #000000ee;">
+        <p class="hook-hanger mb-2 mt-3" style="font-size: 10px; font-style: italic;">UDG VIRTUAL</p>
+        <p class="d-inline-block px-3 py-1 mb-1" style="font-style: italic; font-size: 0.7rem;">
+            @2024 Conceptualización de Servicios de la Nube</p><br>
+        <p class="d-inline-block px-3 py-1" style="font-style: italic; font-size: 0.7rem;">
+            Creado por: Tanya Medina &nbsp; | &nbsp; 
+            <a href="mailto:tanya.medina@udgvirtual.udg.mx" style="color: inherit; text-decoration: underline;">tanya.medina@udgvirtual.udg.mx</a></p>
+</footer>
+
+
+
+
+    
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
